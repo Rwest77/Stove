@@ -51,4 +51,8 @@ public class Burner {
 	public void updateTemperature(){
 		
 	}
+	
+	public void display(int burnerNumber){
+		System.out.println("Burner " + burnerNumber + ":\t"+ mySetting.toString());
+	}
 }

@@ -24,7 +24,16 @@ public class Stove {
 	 * You must write the following method
 	 */
 	public void displayStove() {
-
+		boolean burnerOn = false;
+		for (int i=0; i<NUM_BURNERS; i++){
+			burners.get(i).display(i);
+			if(burners.get(i).myTemperature.ordinal() == 3){
+				burnerOn = true;
+			}
+		}
+		if(burnerOn == true){
+			System.out.println("RED LIGHT - HOT BURNER ALERT");
+		}
 	}
 	
 	public void turnBurnersUp() {

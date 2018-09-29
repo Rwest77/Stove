@@ -1,7 +1,7 @@
 /**
  * Authors: Ryan West, Carson Stevens, Adrian Estrada
  * Exercise: C10A File IO
- */ 
+ */   
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
